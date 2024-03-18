@@ -51,7 +51,7 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`id`, `f_name`, `l_name`, `phone`, `email`, `identity_image`, `identity_type`, `identity_number`, `image`, `password`, `remember_token`, `created_at`, `updated_at`, `fcm_token`, `status`, `admin_role_id`) VALUES
-(1, 'Henry', 'K', '6282281190072', 'hk119.2023@gmail.com', NULL, NULL, NULL, NULL, '$2y$10$eEQjkbSb9whI8VwNXlaslOT/MHyLLFXVCkMcJBzjSVPVQ5KrkQCsq', NULL, '2024-03-15 17:08:27', '2024-03-15 17:08:27', NULL, 1, 1);
+(1, 'Henry', 'K', '6282281190000', 'hk119.2023@gmail.com', NULL, NULL, NULL, NULL, '$2y$10$eEQjkbSb9whI8VwNXlaslOT/MHyLLFXVCkMcJBzjSVPVQ5KrkQCsq', NULL, '2024-03-15 17:08:27', '2024-03-15 17:08:27', NULL, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -150,7 +150,7 @@ CREATE TABLE `branches` (
 --
 
 INSERT INTO `branches` (`id`, `restaurant_id`, `name`, `email`, `phone`, `password`, `latitude`, `longitude`, `address`, `status`, `created_at`, `updated_at`, `coverage`, `remember_token`, `image`) VALUES
-(1, NULL, 'ITIPedia Serpong', 'hk119.2024@gmail.com', '+6282281190072', '$2y$10$97fa1973.vh87lFOWldIiOlzuLOa6jiIzTxkzMPBqzeNIkg5TzC5W', '22.848823', '91.390306', 'Setu, Tangerang Selatan', 1, '2021-02-24 09:45:49', '2024-03-16 11:26:02', 500, NULL, NULL);
+(1, NULL, 'ITIPedia Serpong', 'hk119.2024@gmail.com', '+6282281190000', '$2y$10$97fa1973.vh87lFOWldIiOlzuLOa6jiIzTxkzMPBqzeNIkg5TzC5W', '22.848823', '91.390306', 'Setu, Tangerang Selatan', 1, '2021-02-24 09:45:49', '2024-03-16 11:26:02', 500, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -175,10 +175,10 @@ INSERT INTO `business_settings` (`id`, `key`, `value`, `created_at`, `updated_at
 (3, 'restaurant_name', 'ITIPedia', NULL, NULL),
 (4, 'currency', 'IDR', NULL, NULL),
 (5, 'logo', '2021-06-21-60d0370804378.png', NULL, NULL),
-(6, 'mail_config', '{\"status\":1,\"name\":\"ITIPedia\",\"host\":\"smtp.gmail.com\",\"driver\":\"smtp\",\"port\":\"587\",\"username\":\"aicongen.2023@gmail.com\",\"email_id\":\"aicongen.2023@gmail.com\",\"encryption\":\"tls\",\"password\":\"olczzjxuufuttmeg\"}', NULL, '2024-03-16 11:36:58'),
+(6, 'mail_config', '{\"status\":1,\"name\":\"ITIPedia\",\"host\":\"smtp.gmail.com\",\"driver\":\"smtp\",\"port\":\"587\",\"username\":\"chili@gmail.com\",\"email_id\":\"chili@gmail.com\",\"encryption\":\"tls\",\"password\":\":P"}', NULL, '2024-03-16 11:36:58'),
 (7, 'delivery_charge', '100', NULL, NULL),
 (8, 'ssl_commerz_payment', '{\"status\":\"0\",\"store_id\":null,\"store_password\":null}', NULL, '2021-07-25 09:32:22'),
-(9, 'paypal', '{\"status\":\"1\",\"paypal_client_id\":\"AcP2BnfuDzuEj69jeWUU62u28YUU-EzBNntYA_iEaLZQTtHkGVvwmqlO9F2W0l43j2WEmEKMzSuV8bEk\",\"paypal_secret\":\"EA8QGKOqFKcAKo_fMWXRNvZ2c6Ui_5zrpywekpoeDQFIHu8aCZBOrEtNunaa_ruhG8jpNTiPQZ7otdMw\"}', NULL, '2024-03-16 11:42:07'),
+(9, 'paypal', '{\"status\":\"1\",\"paypal_client_id\":\"AcP2BnfuDzuEj69jeWUU62u28YUU-EzBNntYA_iEaLZQTtHkGVvwmqlO9F2W0l43j2WEmEKMzSuV8bEk\",\"paypal_secret\":\":P"}', NULL, '2024-03-16 11:42:07'),
 (10, 'stripe', '{\"status\":\"0\",\"api_key\":null,\"published_key\":null}', NULL, '2021-07-25 09:32:50'),
 (11, 'phone', '+01747413273', NULL, NULL),
 (13, 'footer_text', 'Copyright ITIPedia', NULL, NULL),
@@ -1419,7 +1419,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `f_name`, `l_name`, `email`, `image`, `is_phone_verified`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`, `email_verification_token`, `phone`, `is_block`, `cm_firebase_token`, `temporary_token`, `login_medium`, `loyalty_point`, `wallet_balance`, `referral_code`, `referred_by`, `login_hit_count`, `is_temp_blocked`, `temp_block_time`) VALUES
-(1, 'John', 'Doe', 'ptarc2020@gmail.com', NULL, 0, NULL, '$2y$10$BP.DiBPwe3wa8krWKgy9w.KEUTK.xv1eVW/ul2QxWXJO9Z5ul9w7i', NULL, '2024-03-16 11:47:09', '2024-03-16 12:15:11', NULL, '+6282281190072', 0, NULL, NULL, 'general', 0, 9000000, NULL, NULL, 0, 0, NULL);
+(1, 'John', 'Doe', 'ptarc2020@gmail.com', NULL, 0, NULL, '$2y$10$BP.DiBPwe3wa8krWKgy9w.KEUTK.xv1eVW/ul2QxWXJO9Z5ul9w7i', NULL, '2024-03-16 11:47:09', '2024-03-16 12:15:11', NULL, '+6282281190000', 0, NULL, NULL, 'general', 0, 9000000, NULL, NULL, 0, 0, NULL);
 
 -- --------------------------------------------------------
 
